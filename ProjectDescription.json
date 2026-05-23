@@ -1,0 +1,284 @@
+{
+  "ProjectName": "MICROCONTROLLER",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2026-03-01T00:49:23.184+05:30",
+  "LastSaveTime": "2026-05-17T14:51:43.371+05:30",
+  "Prefs_MainPinNamesDisplayMode": 2,
+  "Prefs_ChipPinNamesDisplayMode": 2,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 2,
+  "Prefs_StraightWires": 2,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "AND",
+    "OR",
+    "NOT",
+    "XOR",
+    "XNOR",
+    "NOR",
+    "3IN NAND",
+    "4IN NAND",
+    "JK MS FLIPFLOP",
+    "SR FLIPFLOP",
+    "D FLIPFLOP",
+    "1BIT REG",
+    "1BYTE REG",
+    "FULL ADDER",
+    "ADDSUB",
+    "1BYTE INVERTER",
+    "1BIT+LATCH",
+    "1BIT-LATCH",
+    "1BYTE TRI-STATE",
+    "1BYTE CLK REG",
+    "D-LATCH",
+    "D-FLIPFLOP",
+    "1BITREG",
+    "8BITREG",
+    "8BIT ALU",
+    "8BIT COUNTER",
+    "COUNTER",
+    "AND-OR",
+    "PRGM CNTR",
+    "PRGRM CNTR VER2",
+    "PRGRM CNTRL VER3",
+    "PROGRAM COUNTER",
+    "8BIT PRGM CNTR",
+    "2-1MUX",
+    "4BIT PROGRAM COUNTER",
+    "8BIT PROGRAM COUNTER",
+    "2-4 DECODER",
+    "1BYTE STORAGE",
+    "16BYTE MEM",
+    "256BYTE RAM",
+    "MEM-1",
+    "MEM-16",
+    "MEM-256",
+    "ASYNC RAM 256BYTES",
+    "SYNCH RAM",
+    "EQUAL-8",
+    "8BIT AND",
+    "8BIT OR",
+    "8BIT XOT",
+    "LOGIC OPERATION",
+    "ALMOSTALU",
+    "SHIFT",
+    "8BIT MUX",
+    "8BIT NOT",
+    "1BIT PC",
+    "2-4",
+    "3-8",
+    "4-16",
+    "SR LATCH",
+    "MAR",
+    "4BIT COUNTER",
+    "TOGGLE",
+    "D FLIP-FLOP(2)",
+    "REG (173)",
+    "PC One More",
+    "3IN AND",
+    "4IN AND",
+    "5IN AND",
+    "3IN NOR",
+    "74LS163(PC)",
+    "JK FLIPFLOP",
+    "74LS163 NEW",
+    "CONNECT",
+    "HEX DISP",
+    "SIGNED DISP",
+    "0-9 SEGMENT DECODER",
+    "SEGMENT PART 1",
+    "SEGMENT PART 2",
+    "1DIGIT",
+    "3DIGIT",
+    "NEGATIVE",
+    "4BIT ADDER",
+    "TWO'S COMP",
+    "MINUS",
+    "3DIGIT UNSIGNED",
+    "First Demo Run"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"BASIC GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"BASIC",
+      "IsCollection":true
+    },
+    {
+      "Name":"BUS",
+      "IsCollection":true
+    },
+    {
+      "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"FLIPFLOP",
+      "IsCollection":true
+    },
+    {
+      "Name":"REG",
+      "IsCollection":true
+    },
+    {
+      "Name":"EXTRA GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"MEMORY",
+      "IsCollection":true
+    },
+    {
+      "Name":"DISPLAY",
+      "IsCollection":true
+    },
+    {
+      "Name":"PROGRAM COUNTER",
+      "IsCollection":true
+    },
+    {
+      "Name":"ADDSUB",
+      "IsCollection":false
+    },
+    {
+      "Name":"1BYTE TRI-STATE",
+      "IsCollection":false
+    },
+    {
+      "Name":"8BIT ALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"2-4 DECODER",
+      "IsCollection":false
+    },
+    {
+      "Name":"LOGIC OPERATION",
+      "IsCollection":false
+    },
+    {
+      "Name":"ALMOSTALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"SHIFT",
+      "IsCollection":false
+    },
+    {
+      "Name":"8BIT MUX",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-16",
+      "IsCollection":false
+    },
+    {
+      "Name":"MAR",
+      "IsCollection":false
+    },
+    {
+      "Name":"4BIT COUNTER",
+      "IsCollection":false
+    },
+    {
+      "Name":"TOGGLE",
+      "IsCollection":false
+    },
+    {
+      "Name":"CONNECT",
+      "IsCollection":false
+    },
+    {
+      "Name":"3DIGIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"MINUS",
+      "IsCollection":false
+    },
+    {
+      "Name":"3DIGIT UNSIGNED",
+      "IsCollection":false
+    },
+    {
+      "Name":"First Demo Run",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","PULSE","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":false,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8","IN-16","OUT-16"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8","BUS-16"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["ROM 256×16","MEM-256","SYNCH RAM","ASYNC RAM 256BYTES","256BYTE RAM"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER","FULL ADDER","ADDSUB","1BYTE INVERTER","1BYTE TRI-STATE","8BIT ALU","COUNTER","AND-OR","2-1MUX","2-4 DECODER","1BYTE STORAGE","16BYTE MEM","MEM-1","MEM-16","EQUAL-8","LOGIC OPERATION","ALMOSTALU","SHIFT","8BIT MUX","2-4","3-8","4-16","SR LATCH","MAR","4BIT COUNTER","REG (173)","CONNECT","HEX DISP","SIGNED DISP","0-9 SEGMENT DECODER","SEGMENT PART 1","SEGMENT PART 2","1DIGIT","3DIGIT","NEGATIVE","4BIT ADDER","TWO'S COMP","MINUS","3DIGIT UNSIGNED","First Demo Run"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["NAND","XNOR","NOR","XOR","NOT","OR","AND"],
+      "IsToggledOpen":true,
+      "Name":"BASIC GATES"
+    },
+    {
+      "Chips":["TOGGLE","JK FLIPFLOP","D FLIP-FLOP(2)","SR FLIPFLOP","JK MS FLIPFLOP","D FLIPFLOP"],
+      "IsToggledOpen":true,
+      "Name":"FLIPFLOP"
+    },
+    {
+      "Chips":["3IN NOR","5IN AND","4IN AND","3IN AND","3IN NAND","4IN NAND"],
+      "IsToggledOpen":true,
+      "Name":"EXTRA GATES"
+    },
+    {
+      "Chips":["1BIT REG","1BYTE REG","1BIT+LATCH","1BIT-LATCH","1BYTE CLK REG","D-LATCH","D-FLIPFLOP","1BITREG","8BITREG"],
+      "IsToggledOpen":true,
+      "Name":"REG"
+    },
+    {
+      "Chips":["1BIT PC","PC One More","74LS163 NEW","74LS163(PC)","PRGM CNTR","PRGRM CNTR VER2","PRGRM CNTRL VER3","PROGRAM COUNTER","8BIT PRGM CNTR","4BIT PROGRAM COUNTER","8BIT PROGRAM COUNTER","8BIT COUNTER"],
+      "IsToggledOpen":true,
+      "Name":"PROGRAM COUNTER"
+    },
+    {
+      "Chips":["8BIT AND","8BIT OR","8BIT XOT","8BIT NOT"],
+      "IsToggledOpen":true,
+      "Name":"8BIT LOGIC OPERATION"
+    }
+  ]
+}
