@@ -5,7 +5,7 @@
   "ChipType": 0,
   "Size": {
     "x": 1.175,
-    "y": 0.75
+    "y": 1.0
   },
   "Colour": {
     "r": 0.0549197979,
@@ -42,6 +42,17 @@
       "Position":{
         "x":-1.25,
         "y":-0.75
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"RST",
+      "ID":1138966597,
+      "Position":{
+        "x":-1.25,
+        "y":-1.25
       },
       "BitCount":1,
       "Colour":0,
@@ -145,7 +156,7 @@
       "ConnectionType":0,
       "ConnectedWireIndex":-1,
       "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":6.625,"y":-0.75},{"x":6.625,"y":-0.375},{"x":0.0,"y":0.0}]
+      "Points":[{"x":0.0,"y":0.0},{"x":5.6875,"y":-0.75},{"x":5.6875,"y":-0.25},{"x":0.0,"y":0.0}]
     },
     {
       "SourcePinAddress":{
@@ -243,7 +254,7 @@
       "ConnectionType":0,
       "ConnectedWireIndex":-1,
       "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":5.6875,"y":1.4375},{"x":5.6875,"y":-0.125},{"x":0.0,"y":0.0}]
+      "Points":[{"x":0.0,"y":0.0},{"x":5.6875,"y":1.4375},{"x":5.6875,"y":0.0},{"x":0.0,"y":0.0}]
     },
     {
       "SourcePinAddress":{
@@ -258,6 +269,20 @@
       "ConnectedWireIndex":0,
       "ConnectedWireSegmentIndex":0,
       "Points":[{"x":8.6875,"y":-0.25},{"x":8.6875,"y":2.375},{"x":1.875,"y":2.375},{"x":1.875,"y":1.875},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1138966597
+      },
+      "TargetPinAddress":{
+        "PinID":819150439,
+        "PinOwnerID":630392853
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":6.125,"y":-1.25},{"x":6.125,"y":-0.5},{"x":0.0,"y":0.0}]
     }
   ],
   "Displays": null
