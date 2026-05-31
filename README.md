@@ -44,6 +44,7 @@ This is an evolving project. Here are the planned upgrades and features I want t
 
 ## Screenshots & Media
 **Watch the 7+3 Calculation:**
+
 https://github.com/user-attachments/assets/c996f1ae-ae27-4580-ad70-1a622eedb653
 
 **Architecture Overview:**
