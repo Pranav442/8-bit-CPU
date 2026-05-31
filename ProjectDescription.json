@@ -3,8 +3,8 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2026-03-01T00:49:23.184+05:30",
-  "LastSaveTime": "2026-05-30T16:01:25.625+05:30",
-  "Prefs_MainPinNamesDisplayMode": 2,
+  "LastSaveTime": "2026-05-31T11:07:42.876+05:30",
+  "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 1,
   "Prefs_Snapping": 2,
@@ -113,7 +113,10 @@
     "8BITREG RST",
     "4BIT TRI-STATE",
     "8BIT INC",
-    "PC ADDER VER"
+    "PC ADDER VER",
+    "4BIT REG",
+    "INSTRUCTION INC",
+    "3BIT ADDER"
   ],
   "StarredList":[
     {
@@ -287,6 +290,18 @@
     {
       "Name":"PC ADDER VER",
       "IsCollection":false
+    },
+    {
+      "Name":"4BIT REG",
+      "IsCollection":false
+    },
+    {
+      "Name":"INSTRUCTION INC",
+      "IsCollection":false
+    },
+    {
+      "Name":"3BIT ADDER",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -321,7 +336,7 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","FULL ADDER","ADDSUB","1BYTE INVERTER","1BYTE TRI-STATE","8BIT ALU","COUNTER","AND-OR","2-1MUX","2-4 DECODER","1BYTE STORAGE","16BYTE MEM","MEM-1","MEM-16","EQUAL-8","LOGIC OPERATION","ALMOSTALU","SHIFT","8BIT MUX","2-4","3-8","4-16","SR LATCH","MAR","4BIT COUNTER","REG (173)","CONNECT","HEX DISP","SIGNED DISP","0-9 SEGMENT DECODER","SEGMENT PART 1","SEGMENT PART 2","1DIGIT","3DIGIT","NEGATIVE","4BIT ADDER","TWO'S COMP","MINUS","3DIGIT UNSIGNED","First Demo Run","DEMO INS DECODER","DECODER INSTRUCTION V0","MOD-6 COUNTER","DEC-1","DEC-2","DEC-3","DEC-4","3BIT COUNTER","second demo run","BUFF","8BIT BUFF","8BITREG RST","4BIT TRI-STATE"],
+      "Chips":["BUZZER","FULL ADDER","ADDSUB","1BYTE INVERTER","1BYTE TRI-STATE","8BIT ALU","COUNTER","AND-OR","2-1MUX","2-4 DECODER","1BYTE STORAGE","16BYTE MEM","MEM-1","MEM-16","EQUAL-8","LOGIC OPERATION","ALMOSTALU","SHIFT","8BIT MUX","2-4","3-8","4-16","SR LATCH","MAR","4BIT COUNTER","REG (173)","CONNECT","HEX DISP","SIGNED DISP","0-9 SEGMENT DECODER","SEGMENT PART 1","SEGMENT PART 2","1DIGIT","3DIGIT","NEGATIVE","4BIT ADDER","TWO'S COMP","MINUS","3DIGIT UNSIGNED","First Demo Run","DEMO INS DECODER","DECODER INSTRUCTION V0","MOD-6 COUNTER","DEC-1","DEC-2","DEC-3","DEC-4","3BIT COUNTER","second demo run","BUFF","8BIT BUFF","8BITREG RST","4BIT TRI-STATE","8BIT INC","PC ADDER VER"],
       "IsToggledOpen":false,
       "Name":"OTHER"
     },
