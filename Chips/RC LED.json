@@ -1,0 +1,119 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "RC LED",
+  "NameLocation": 2,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.025,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 0.4571741,
+    "g": 0.8227377,
+    "b": 0.211586267,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"ROW",
+      "ID":339804107,
+      "Position":{
+        "x":-0.375,
+        "y":-5.5
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"COLUMN",
+      "ID":661077471,
+      "Position":{
+        "x":-0.375,
+        "y":-6.0
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"LED",
+      "ID":876728171,
+      "Label":"",
+      "Position":{
+        "x":3.26,
+        "y":-5.75
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"AND",
+      "ID":1267877370,
+      "Label":"",
+      "Position":{
+        "x":2.36,
+        "y":-5.75
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1470811097}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":1470811097,
+        "PinOwnerID":1267877370
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":876728171
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":339804107
+      },
+      "TargetPinAddress":{
+        "PinID":418152113,
+        "PinOwnerID":1267877370
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":1.4375,"y":-5.5},{"x":1.4375,"y":-5.625},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":661077471
+      },
+      "TargetPinAddress":{
+        "PinID":1335319964,
+        "PinOwnerID":1267877370
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":1.4375,"y":-6.0},{"x":1.4375,"y":-5.875},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[
+    {
+      "SubChipID":876728171,
+      "Position":{
+        "x":0.34375,
+        "y":0.09375
+      },
+      "Scale":1.0
+    }
+  ]
+}

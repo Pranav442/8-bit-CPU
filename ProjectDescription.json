@@ -3,15 +3,15 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2026-03-01T00:49:23.184+05:30",
-  "LastSaveTime": "2026-05-31T11:07:42.876+05:30",
+  "LastSaveTime": "2026-05-31T19:22:42.428+05:30",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 1,
   "Prefs_Snapping": 2,
   "Prefs_StraightWires": 2,
-  "Prefs_SimPaused": true,
+  "Prefs_SimPaused": false,
   "Prefs_SimTargetStepsPerSecond": 1000,
-  "Prefs_SimStepsPerClockTick": 250,
+  "Prefs_SimStepsPerClockTick": 25,
   "AllCustomChipNames":[
     "AND",
     "OR",
@@ -116,7 +116,11 @@
     "PC ADDER VER",
     "4BIT REG",
     "INSTRUCTION INC",
-    "3BIT ADDER"
+    "3BIT ADDER",
+    "INSTRUCTION INC 2",
+    "ALU V2",
+    "RC LED",
+    "ALPHABETS"
   ],
   "StarredList":[
     {
@@ -302,6 +306,22 @@
     {
       "Name":"3BIT ADDER",
       "IsCollection":false
+    },
+    {
+      "Name":"INSTRUCTION INC 2",
+      "IsCollection":false
+    },
+    {
+      "Name":"ALU V2",
+      "IsCollection":false
+    },
+    {
+      "Name":"RC LED",
+      "IsCollection":false
+    },
+    {
+      "Name":"ALPHABETS",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -321,8 +341,8 @@
       "Name":"MERGE/SPLIT"
     },
     {
-      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
-      "IsToggledOpen":false,
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED","SIGNED DISP","3DIGIT UNSIGNED","3DIGIT"],
+      "IsToggledOpen":true,
       "Name":"DISPLAY"
     },
     {
@@ -336,8 +356,8 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","FULL ADDER","ADDSUB","1BYTE INVERTER","1BYTE TRI-STATE","8BIT ALU","COUNTER","AND-OR","2-1MUX","2-4 DECODER","1BYTE STORAGE","16BYTE MEM","MEM-1","MEM-16","EQUAL-8","LOGIC OPERATION","ALMOSTALU","SHIFT","8BIT MUX","2-4","3-8","4-16","SR LATCH","MAR","4BIT COUNTER","REG (173)","CONNECT","HEX DISP","SIGNED DISP","0-9 SEGMENT DECODER","SEGMENT PART 1","SEGMENT PART 2","1DIGIT","3DIGIT","NEGATIVE","4BIT ADDER","TWO'S COMP","MINUS","3DIGIT UNSIGNED","First Demo Run","DEMO INS DECODER","DECODER INSTRUCTION V0","MOD-6 COUNTER","DEC-1","DEC-2","DEC-3","DEC-4","3BIT COUNTER","second demo run","BUFF","8BIT BUFF","8BITREG RST","4BIT TRI-STATE","8BIT INC","PC ADDER VER"],
-      "IsToggledOpen":false,
+      "Chips":["BUZZER","FULL ADDER","ADDSUB","1BYTE INVERTER","1BYTE TRI-STATE","8BIT ALU","COUNTER","AND-OR","2-1MUX","2-4 DECODER","1BYTE STORAGE","16BYTE MEM","MEM-1","MEM-16","EQUAL-8","LOGIC OPERATION","ALMOSTALU","SHIFT","8BIT MUX","SR LATCH","MAR","4BIT COUNTER","REG (173)","CONNECT","HEX DISP","0-9 SEGMENT DECODER","SEGMENT PART 1","SEGMENT PART 2","1DIGIT","NEGATIVE","4BIT ADDER","TWO'S COMP","MINUS","First Demo Run","DEMO INS DECODER","DECODER INSTRUCTION V0","MOD-6 COUNTER","3BIT COUNTER","second demo run","BUFF","8BIT BUFF","8BITREG RST","4BIT TRI-STATE","8BIT INC","INSTRUCTION INC","3BIT ADDER","INSTRUCTION INC 2","ALU V2"],
+      "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
@@ -356,19 +376,24 @@
       "Name":"EXTRA GATES"
     },
     {
-      "Chips":["1BIT REG","1BYTE REG","1BIT+LATCH","1BIT-LATCH","1BYTE CLK REG","D-LATCH","D-FLIPFLOP","1BITREG","8BITREG"],
-      "IsToggledOpen":true,
+      "Chips":["4BIT REG","1BIT REG","1BYTE REG","1BIT+LATCH","1BIT-LATCH","1BYTE CLK REG","D-LATCH","D-FLIPFLOP","1BITREG","8BITREG"],
+      "IsToggledOpen":false,
       "Name":"REG"
     },
     {
-      "Chips":["1BIT PC","PC One More","74LS163 NEW","74LS163(PC)","PRGM CNTR","PRGRM CNTR VER2","PRGRM CNTRL VER3","PROGRAM COUNTER","8BIT PRGM CNTR","4BIT PROGRAM COUNTER","8BIT PROGRAM COUNTER","8BIT COUNTER"],
-      "IsToggledOpen":true,
+      "Chips":["PC ADDER VER","1BIT PC","PC One More","74LS163 NEW","74LS163(PC)","PRGM CNTR","PRGRM CNTR VER2","PRGRM CNTRL VER3","PROGRAM COUNTER","8BIT PRGM CNTR","4BIT PROGRAM COUNTER","8BIT PROGRAM COUNTER","8BIT COUNTER"],
+      "IsToggledOpen":false,
       "Name":"PROGRAM COUNTER"
     },
     {
       "Chips":["8BIT AND","8BIT OR","8BIT XOT","8BIT NOT"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"8BIT LOGIC OPERATION"
+    },
+    {
+      "Chips":["DEC-1","DEC-2","DEC-3","DEC-4","2-4","3-8","4-16"],
+      "IsToggledOpen":true,
+      "Name":"DECODER"
     }
   ]
 }
