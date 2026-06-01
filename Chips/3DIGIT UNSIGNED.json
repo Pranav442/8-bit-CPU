@@ -5,7 +5,7 @@
   "ChipType": 0,
   "Size": {
     "x": 3.7,
-    "y": 1.75
+    "y": 2.0
   },
   "Colour": {
     "r": 0.09337525,
@@ -126,6 +126,94 @@
       },
       "OutputPinColourInfo":[{"PinColour":0,"PinID":684310043}],
       "InternalData":null
+    },
+    {
+      "Name":"LED",
+      "ID":875709865,
+      "Label":"",
+      "Position":{
+        "x":6.01,
+        "y":-1.125
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"LED",
+      "ID":51998641,
+      "Label":"",
+      "Position":{
+        "x":6.51,
+        "y":-1.0
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"LED",
+      "ID":270894459,
+      "Label":"",
+      "Position":{
+        "x":7.01,
+        "y":-0.875
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"LED",
+      "ID":1107035889,
+      "Label":"",
+      "Position":{
+        "x":7.51,
+        "y":-0.75
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"LED",
+      "ID":180456267,
+      "Label":"",
+      "Position":{
+        "x":8.01,
+        "y":-0.625
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"LED",
+      "ID":614939433,
+      "Label":"",
+      "Position":{
+        "x":8.51,
+        "y":-0.5
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"LED",
+      "ID":356223034,
+      "Label":"",
+      "Position":{
+        "x":9.01,
+        "y":-0.375
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
+    },
+    {
+      "Name":"LED",
+      "ID":971020642,
+      "Label":"",
+      "Position":{
+        "x":9.51,
+        "y":-0.25
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":[0]
     }
   ],
   "Wires":[
@@ -422,22 +510,126 @@
       "ConnectedWireIndex":-1,
       "ConnectedWireSegmentIndex":-1,
       "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":875709865
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":3,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.375,"y":2.8125},{"x":5.375,"y":-1.125},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":51998641
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":4,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.4375,"y":2.5625},{"x":5.4375,"y":-1.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":3,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":270894459
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":5,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.5,"y":2.3125},{"x":5.5,"y":-0.875},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":4,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1107035889
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":6,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.5625,"y":2.0625},{"x":5.5625,"y":-0.75},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":5,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":180456267
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":7,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.625,"y":1.8125},{"x":5.625,"y":-0.625},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":6,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":614939433
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":8,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.6875,"y":1.5625},{"x":5.6875,"y":-0.5},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":7,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":356223034
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":9,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.75,"y":1.3125},{"x":5.75,"y":-0.375},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":8,
+        "PinOwnerID":490569462
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":971020642
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":10,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":5.8125,"y":1.0625},{"x":5.8125,"y":-0.25},{"x":0.0,"y":0.0}]
     }
   ],
   "Displays":[
     {
-      "SubChipID":96502589,
-      "Position":{
-        "x":1.375,
-        "y":0.0
-      },
-      "Scale":1.0
-    },
-    {
       "SubChipID":2102604914,
       "Position":{
         "x":0.375,
-        "y":0.0
+        "y":0.125
       },
       "Scale":1.0
     },
@@ -445,7 +637,79 @@
       "SubChipID":1965784813,
       "Position":{
         "x":-0.625,
-        "y":0.0
+        "y":0.125
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":96502589,
+      "Position":{
+        "x":1.375,
+        "y":0.125
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":875709865,
+      "Position":{
+        "x":-0.59375,
+        "y":-0.90625
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":51998641,
+      "Position":{
+        "x":-0.34375,
+        "y":-0.90625
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":270894459,
+      "Position":{
+        "x":-0.09375,
+        "y":-0.90625
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":1107035889,
+      "Position":{
+        "x":0.15625,
+        "y":-0.90625
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":180456267,
+      "Position":{
+        "x":0.40625,
+        "y":-0.90625
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":614939433,
+      "Position":{
+        "x":0.65625,
+        "y":-0.90625
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":356223034,
+      "Position":{
+        "x":0.90625,
+        "y":-0.90625
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":971020642,
+      "Position":{
+        "x":1.15625,
+        "y":-0.90625
       },
       "Scale":1.0
     }

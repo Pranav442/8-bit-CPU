@@ -70,17 +70,6 @@
       "BitCount":8,
       "Colour":0,
       "ValueDisplayMode":1
-    },
-    {
-      "Name":"OUT",
-      "ID":913732907,
-      "Position":{
-        "x":12.5,
-        "y":-6.75
-      },
-      "BitCount":8,
-      "Colour":0,
-      "ValueDisplayMode":0
     }
   ],
   "SubChips":[
@@ -1473,20 +1462,6 @@
       "ConnectedWireIndex":-1,
       "ConnectedWireSegmentIndex":-1,
       "Points":[{"x":0.0,"y":0.0},{"x":15.0,"y":0.1875},{"x":15.0,"y":-12.875},{"x":-4.25,"y":-12.875},{"x":-4.25,"y":-12.0},{"x":0.0,"y":0.0}]
-    },
-    {
-      "SourcePinAddress":{
-        "PinID":862715660,
-        "PinOwnerID":1806016700
-      },
-      "TargetPinAddress":{
-        "PinID":0,
-        "PinOwnerID":913732907
-      },
-      "ConnectionType":0,
-      "ConnectedWireIndex":-1,
-      "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
     }
   ],
   "Displays": null
