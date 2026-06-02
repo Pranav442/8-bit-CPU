@@ -28,6 +28,10 @@ The CPU currently supports a minimal, custom instruction set.
 | **LDA** | `0001`  | Load to A | Loads data from the specified RAM address into Register A. |
 | **ADD** | `0010`  | Add | Adds the value in RAM to Register A and stores the result in Register A. |
 | **SUB** | `0011`  | Subtract | Subtracts the value in RAM from Register A. |
+| **CPL** | `0110`  | Complement | Complement the value in Register A. |
+| **JMP** | `0111`  | JUMP | Unconditional jump to RAM address. |
+| **LDB** | `1011`  | Load to B | Loads data from the specified RAM address into Register B. |
+| **STA** | `1100`  | Write from A | Stores data of Register A to given RAM address. |
 | **OUT** | `1111`  | Output | Moves the contents of Register A to the Output Register. |
 
 
@@ -35,7 +39,7 @@ The CPU currently supports a minimal, custom instruction set.
 This is an evolving project. Here are the planned upgrades and features I want to implement next:
 
 ### Hardware & Architecture Expansions
-- [ ] **Expand Instruction Set:** Implement `JNZ` (Conditional Jump), `JMP` (Unconditional Jump), and other logical and bitwise operations.
+- [ ] **Expand Instruction Set:** Implement `JNZ` (Conditional Jump) and other logical and bitwise operations.
 - [ ] **Conditional Logic:** Add a flags register (Zero, Carry) to support conditional jumps (e.g., `JNC`, `JNZ`), allowing for loops.
 - [ ] **Memory Upgrade:** Expand the RAM addressing space beyond 16 bytes.
 
